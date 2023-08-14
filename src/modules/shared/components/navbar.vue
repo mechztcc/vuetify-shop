@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <div class="d-flex justify-space-between pa-6 bg-primary">
-      Logo
+      LOGO
       <v-icon>mdi-menu</v-icon>
     </div>
   </v-card>
@@ -14,4 +14,9 @@ export default {
   },
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss" scoped>
+.logo {
+  max-height: 80px;
+  max-width: 80px;
+}
+</style>

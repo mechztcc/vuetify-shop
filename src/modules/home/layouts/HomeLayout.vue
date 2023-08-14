@@ -1,14 +1,27 @@
 <template>
-  <div>
+  <div class="mt-10">
     <v-container>
       <v-row>
         <v-col cols="12" md="3">
-          <FiltersContainer/>
+          <FiltersContainer />
         </v-col>
-        <v-col cols="12" md="3"> <CardProduct /> </v-col>
-        <v-col cols="12" md="3"> <CardProduct /> </v-col>
-        <v-col cols="12" md="3"> <CardProduct /> </v-col>
+        <v-col cols="12" md="9">
+          <v-row>
+            <v-col
+              cols="12"
+              md="3"
+              lg="4"
+              v-for="(item, index) in 6"
+              :key="index"
+            >
+              <CardProduct />
+            </v-col>
+          </v-row>
+        </v-col>
       </v-row>
+      <div class="mt-12 mb-10 text-end">
+        <v-pagination :length="6"></v-pagination>
+      </div>
     </v-container>
   </div>
 </template>
@@ -19,7 +32,7 @@ export default {
   name: "HomeLayout",
   components: {
     CardProduct,
-    FiltersContainer
+    FiltersContainer,
   },
   data() {
     return {};

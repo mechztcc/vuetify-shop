@@ -1,5 +1,5 @@
 <template>
-  <v-card class="pa-3">
+  <v-card class="pa-10">
     <FilterByPriceRange />
     <FiltersByCategory />
     <FilterByMark />
