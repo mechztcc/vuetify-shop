@@ -4,7 +4,7 @@
 </template>
 
 <script lang="ts" setup>
-import Navbar from "./modules/shared/components/Navbar.vue";
+import Navbar from "@/modules/shared/components/Navbar.vue";
 
 components: {
   Navbar;

@@ -1,5 +1,5 @@
 <template>
-  <v-card class="pa-4">
+  <v-card class="pa-2">
     <div class="d-flex justify-center">
       <v-img class="img" src="@/assets/imgs/headphone.jpg">
         <v-toolbar color="transparent">
@@ -9,10 +9,14 @@
         </v-toolbar>
       </v-img>
     </div>
-    <div class="d-flex justify-space-between">
-      <v-card-title>SonicMax Pro X1</v-card-title>
-      <v-card-title><sup>$</sup> 90,<sup>99</sup></v-card-title>
-    </div>
+    <v-row>
+      <v-col cols="6">
+        <v-card-title>SonicMax Pro X1</v-card-title>
+      </v-col>
+      <v-col cols="6">
+        <v-card-title><sup>$</sup> 90,<sup>99</sup></v-card-title>
+      </v-col>
+    </v-row>
     <v-card-text class="pb-0">Organic cottom</v-card-text>
     <v-card-text class="mt-0 pt-0"
       >Introducing the pinnacle of audio immersion - the cutting-edge headphones

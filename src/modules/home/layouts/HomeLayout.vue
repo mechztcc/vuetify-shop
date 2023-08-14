@@ -9,7 +9,7 @@
           <v-row>
             <v-col
               cols="12"
-              md="3"
+              md="4"
               lg="4"
               v-for="(item, index) in 6"
               :key="index"
