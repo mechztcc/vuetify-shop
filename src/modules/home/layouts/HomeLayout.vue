@@ -8,7 +8,6 @@
         <v-col cols="12" md="3"> <CardProduct /> </v-col>
         <v-col cols="12" md="3"> <CardProduct /> </v-col>
         <v-col cols="12" md="3"> <CardProduct /> </v-col>
-        <v-col cols="12" md="3"> <CardProduct /> </v-col>
       </v-row>
     </v-container>
   </div>
