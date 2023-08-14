@@ -1,7 +1,13 @@
 <template>
   <v-card class="pa-4">
     <div class="d-flex justify-center">
-      <img class="img" src="@/assets/imgs/headphone.jpg" alt="" />
+      <v-img class="img" src="@/assets/imgs/headphone.jpg">
+        <v-toolbar color="transparent">
+          <v-toolbar-title class="text-end">
+            <v-icon>mdi-heart-outline</v-icon>
+          </v-toolbar-title>
+        </v-toolbar>
+      </v-img>
     </div>
     <div class="d-flex justify-space-between">
       <v-card-title>SonicMax Pro X1</v-card-title>
